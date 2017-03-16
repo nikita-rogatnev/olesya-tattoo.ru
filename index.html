@@ -1,15 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="author" content="Рогатнев Никита" />
-    <meta name="description" content="Приветствую всех ценителей живописи на теле, бывалых любителей украсить себя, и конечно желающих обзавестись татуировкой впервые. Меня зовут Олеся, занимаюсь татуировкой 4 года, люблю изо дня в день делать людей немного краше. Помогу разработать или найти подходящий эскиз, перекрыть старую тату, замаскировать шрам, Заразите меня своей идеей и я к вашим услугам!" />
-    <meta name="keywords" content="стоимость тату, тату цена, тату стоимость, цены на татуировки, сколько стоит татуировка, стоимость татуировки, стоимость эскиза тату, тату цены, татуировка стоимость, эскизы татуировки, татуировки стоимость, цены тату, сколько стоит эскиз татуировки, тату эскизы фото, эскизы тату фото, тату санкт петербург, татуировки санкт-петербург, перекрыть тату, татуировка санкт-петербург, цены татуировки, тату в реализме, тату питер, тату-салон Звенигородская, тату спб, художественная татуировка" />
-    
+    <meta name="description" content="Приветствую всех ценителей живописи на теле, бывалых любителей украсить себя, и конечно желающих обзавестись татуировкой впервые. Меня зовут Олеся, занимаюсь татуировкой 4 года, люблю изо дня в день делать людей немного краше. Помогу разработать или найти подходящий эскиз, перекрыть старую тату, замаскировать шрам, Заразите меня своей идеей и я к вашим услугам!"
+    />
+    <meta name="keywords" content="стоимость тату, тату цена, тату стоимость, цены на татуировки, сколько стоит татуировка, стоимость татуировки, стоимость эскиза тату, тату цены, татуировка стоимость, эскизы татуировки, татуировки стоимость, цены тату, сколько стоит эскиз татуировки, тату эскизы фото, эскизы тату фото, тату санкт петербург, татуировки санкт-петербург, перекрыть тату, татуировка санкт-петербург, цены татуировки, тату в реализме, тату питер, тату-салон Звенигородская, тату спб, художественная татуировка"
+    />
+
     <meta name='yandex-verification' content='41398ff76f22e792' />
     <meta name="google-site-verification" content="mXubEFXRAHT_GKqMew51Rfr-B0SqH31rPyPo4PqQcU0" />
-    
+
     <title>Олеся Штрымова | Пространство для творчества одной татуировщицы</title>
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/component.css">
@@ -20,261 +23,283 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="bower_components/modernizr/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
-    <script type=text/javascript>function call(){var a=$("#contact-form").serialize();$.ajax({type:"POST",url:"send-mail.php",data:a,success:function(b){alert("Ваше сообщение отправлено, спасибо!")},error:function(c,b){alert("Error: "+c.responseCode)}})}</script>
+    <script type=text/javascript>
+function call() {
+    var a = $("#contact-form").serialize();
+    $.ajax({
+        type: "POST",
+        url: "send-mail.php",
+        data: a,
+        success: function(b) {
+            alert("Ваше сообщение отправлено, спасибо!")
+        },
+        error: function(c, b) {
+            alert("Error: " + c.responseCode)
+        }
+    })
+}
+    </script>
 
 
-<script>
+    <script>
 function toggle() {
-var ele = document.getElementById("toggleText");
-var text = document.getElementById("displayText");
-if(ele.style.display == "block") {
-ele.style.display = "none";
-text.innerHTML = "подробнее";
-}
-else {
-ele.style.display = "block";
-text.innerHTML = "ЗАКРЫТЬ";
-}
+    var ele = document.getElementById("toggleText");
+    var text = document.getElementById("displayText");
+    if (ele.style.display == "block") {
+        ele.style.display = "none";
+        text.innerHTML = "подробнее";
+    } else {
+        ele.style.display = "block";
+        text.innerHTML = "ЗАКРЫТЬ";
+    }
 }
 
 function toggle1() {
-var ele = document.getElementById("toggleText1");
-var text = document.getElementById("displayText1");
-if(ele.style.display == "block") {
-ele.style.display = "none";
-text.innerHTML = "подробнее";
-}
-else {
-ele.style.display = "block";
-text.innerHTML = "ЗАКРЫТЬ";
-}
+    var ele = document.getElementById("toggleText1");
+    var text = document.getElementById("displayText1");
+    if (ele.style.display == "block") {
+        ele.style.display = "none";
+        text.innerHTML = "подробнее";
+    } else {
+        ele.style.display = "block";
+        text.innerHTML = "ЗАКРЫТЬ";
+    }
 }
 
 function toggle2() {
-var ele = document.getElementById("toggleText2");
-var text = document.getElementById("displayText2");
-if(ele.style.display == "block") {
-ele.style.display = "none";
-text.innerHTML = "подробнее";
+    var ele = document.getElementById("toggleText2");
+    var text = document.getElementById("displayText2");
+    if (ele.style.display == "block") {
+        ele.style.display = "none";
+        text.innerHTML = "подробнее";
+    } else {
+        ele.style.display = "block";
+        text.innerHTML = "ЗАКРЫТЬ";
+    }
 }
-else {
-ele.style.display = "block";
-text.innerHTML = "ЗАКРЫТЬ";
-}
-}
-</script>
-  </head>
-  <body>
-    
-  <div id="spinner">
-      <div class="spinInner">
-        <img src="img/preload.gif" alt="preload" class="preloaderSpin">             
-      </div>
-  </div>    
+    </script>
+</head>
 
+<body>
 
-  <!-- HOME -->
-  <div class="row homeRow" id="home">
-
-    <div class="large-12 columns navigation">
-        <nav class="cl-effect-18">
-          <a href="#about" data-hover="Sumptuous">О МАСТЕРЕ</a><br>
-          <img src="img/seperator-white.png" height="14" width="201" alt=""><br><br>
-
-          <a href="#work" data-hover="Scintilla">ГАЛЕРЕЯ</a><br>
-          <img src="img/seperator-white.png" height="14" width="201" alt=""><br><br>
-          <a href="#contact" data-hover="Propinquity">Контакты</a>
-        </nav>      
+    <div id="spinner">
+        <div class="spinInner">
+            <img src="img/preload.gif" alt="preload" class="preloaderSpin">
+        </div>
     </div>
 
-      <div class="demo kitchensink-demo animation animation1" id="kitchensink-demo">
-        <div class="round dot0" id="dot0"></div>
-        <div class="round dot00" id="dot00"></div>
-        <div class="round dot000" id="dot000"></div>
-        <div class="round dot1" id="dot1"></div>
-        <div class="round dot2" id="dot2"></div>
-        <div class="round dot3" id="dot3"></div>
-        <div class="round dot4" id="dot4"></div>
-        <div class="round dot5" id="dot5"></div>
-        <div class="round dot6" id="dot6"></div>
-        <div class="round dot7" id="dot7"></div>
-        <div class="round dot8" id="dot8"></div>
-        <div class="round dot9" id="dot9"></div>
-        <div class="round dot10" id="dot10"></div> 
-        <div class="round dot11" id="dot11"></div>
-        <div class="round dot12" id="dot12"></div>
-        <div class="round dot13" id="dot13"></div>
-        <div class="round dot14" id="dot14"></div>
-        <div class="round dot15" id="dot15"></div>
-        <div class="round dot16" id="dot16"></div>
-        <div class="round dot17" id="dot17"></div>
-        <div class="round dot18" id="dot18"></div>
-        <div class="round dot19" id="dot19"></div>
-        <div class="round dot20" id="dot20"></div>            
-        <div class="round dot21" id="dot21"></div>                       
-        <div class="round dot22" id="dot22"></div>
-        <div class="round dot23" id="dot23"></div>
-        <div class="round dot24" id="dot24"></div>
-      </div>
 
-      <div class="additionalBackground">
-        <img src="img/homeAdd.png" alt="">
-      </div>
+    <!-- HOME -->
+    <div class="row homeRow" id="home">
+
+        <div class="large-12 columns navigation">
+            <nav class="cl-effect-18">
+                <a href="#about" data-hover="Sumptuous">О МАСТЕРЕ</a><br>
+                <img src="img/seperator-white.png" height="14" width="201" alt=""><br><br>
+
+                <a href="#work" data-hover="Scintilla">ГАЛЕРЕЯ</a><br>
+                <img src="img/seperator-white.png" height="14" width="201" alt=""><br><br>
+                <a href="#contact" data-hover="Propinquity">Контакты</a>
+            </nav>
+        </div>
+
+        <div class="demo kitchensink-demo animation animation1" id="kitchensink-demo">
+            <div class="round dot0" id="dot0"></div>
+            <div class="round dot00" id="dot00"></div>
+            <div class="round dot000" id="dot000"></div>
+            <div class="round dot1" id="dot1"></div>
+            <div class="round dot2" id="dot2"></div>
+            <div class="round dot3" id="dot3"></div>
+            <div class="round dot4" id="dot4"></div>
+            <div class="round dot5" id="dot5"></div>
+            <div class="round dot6" id="dot6"></div>
+            <div class="round dot7" id="dot7"></div>
+            <div class="round dot8" id="dot8"></div>
+            <div class="round dot9" id="dot9"></div>
+            <div class="round dot10" id="dot10"></div>
+            <div class="round dot11" id="dot11"></div>
+            <div class="round dot12" id="dot12"></div>
+            <div class="round dot13" id="dot13"></div>
+            <div class="round dot14" id="dot14"></div>
+            <div class="round dot15" id="dot15"></div>
+            <div class="round dot16" id="dot16"></div>
+            <div class="round dot17" id="dot17"></div>
+            <div class="round dot18" id="dot18"></div>
+            <div class="round dot19" id="dot19"></div>
+            <div class="round dot20" id="dot20"></div>
+            <div class="round dot21" id="dot21"></div>
+            <div class="round dot22" id="dot22"></div>
+            <div class="round dot23" id="dot23"></div>
+            <div class="round dot24" id="dot24"></div>
+        </div>
+
+        <div class="additionalBackground">
+            <img src="img/homeAdd.png" alt="">
+        </div>
 
 
-  </div>
-
-
-
-  <!-- ABOUT -->
-  <div class="row aboutRow">
-  
-  
-    <div class="large-12 columns titleHold" id="about">
-      <h1>О МАСТЕРЕ</h1>
-      <img src="img/seperator.png" height="14" width="201" alt="">
-      <h3>Приветствую всех ценителей живописи на теле! Бывалых любителей украсить себя, и конечно желающих обзавестись татуировкой впервые. Меня зовут Олеся, занимаюсь художественной татуировкой c 2010 года. Люблю изо дня в день делать людей немного краше. Помогу разработать или найти подходящий эскиз, перекрыть старую тату, замаскировать шрам. Заразите меня своей идеей и я к вашим услугам!</h3>
     </div>
-    
-    
-    
+
+
+
+    <!-- ABOUT -->
+    <div class="row aboutRow">
+
+
+        <div class="large-12 columns titleHold" id="about">
+            <h1>О МАСТЕРЕ</h1>
+            <img src="img/seperator.png" height="14" width="201" alt="">
+            <h3>Приветствую всех ценителей живописи на теле! Бывалых любителей украсить себя, и конечно желающих обзавестись татуировкой впервые. Меня зовут Олеся, занимаюсь художественной татуировкой c 2010 года. Люблю изо дня в день делать людей немного краше. Помогу разработать или найти подходящий эскиз, перекрыть старую тату, замаскировать шрам. Заразите меня своей идеей и я к вашим услугам!</h3>
+        </div>
+
+
+
         <!-- ICONS -->
-    <div class="large-12 columns iconHold">
-      <div class="icon">
-        <img src="img/prs.png" width="170" alt="">
-        <h4>СКОЛЬКО СТОИТ</h4>
-        <p>Стоимость сеанса от 3000 до 8000 руб. Зависит от сложности и размера эскиза. </p><div id="toggleText" style="display: none;"><p>На татуировки, выполняемые более чем за 3 сеанса – всегда делаю скидку. Чтобы соорентироваться с ценой, можно выслать эскиз или описать свои идеи мне в контакте, либо на почту. Также цены на некоторые из работ можно посмотреть в портфолио.</p></div><br>
-        <a href="javascript:toggle();" id="displayText" class="button">подробнее</a>
-      </div>
+        <div class="large-12 columns iconHold">
+            <div class="icon">
+                <img src="img/prs.png" width="170" alt="">
+                <h4>СКОЛЬКО СТОИТ</h4>
+                <p>Стоимость сеанса от 3000 до 8000 руб. Зависит от сложности и размера эскиза. </p>
+                <div id="toggleText" style="display: none;">
+                    <p>На татуировки, выполняемые более чем за 3 сеанса – всегда делаю скидку. Чтобы соорентироваться с ценой, можно выслать эскиз или описать свои идеи мне в контакте, либо на почту. Также цены на некоторые из работ можно посмотреть в портфолио.</p>
+                </div><br>
+                <a href="javascript:toggle();" id="displayText" class="button">подробнее</a>
+            </div>
 
-      <div class="icon">
-        <img src="img/esk.png" width="170" alt="">
-        <h4>РАЗРАБОТКА ЭСКИЗА</h4>
-        <p>С радостью помогу с поиском эскиза и с советом, как лучше расположить на теле. </p><div id="toggleText1" style="display: none;"><p>Также по желанию клиента рисую индивидуальные эскизы. Цена на эскиз - 1000 руб предоплата, которая в дальнейшем пойдет в стоимость татуировки.</p></div><br>
-        <a href="javascript:toggle1();" id="displayText1" class="button">подробнее</a>
-      </div>
-      
-      <div class="icon">
-        <img src="img/yxd.png" width="170" alt="">
-        <h4>УХОД ЗА ТАТУ</h4>
-        <p>От правильного заживления зависит хорошо ли будет смотреться татуировка. </p><div id="toggleText2" style="display: none;"><p> <a href="download/yxod.doc" target="_blank">Скачать</a> инструкцию по уходу.</p></div><br>
-        <a href="javascript:toggle2();" id="displayText2" class="button">подробнее</a>
-      </div>
+            <div class="icon">
+                <img src="img/esk.png" width="170" alt="">
+                <h4>РАЗРАБОТКА ЭСКИЗА</h4>
+                <p>С радостью помогу с поиском эскиза и с советом, как лучше расположить на теле. </p>
+                <div id="toggleText1" style="display: none;">
+                    <p>Также по желанию клиента рисую индивидуальные эскизы. Цена на эскиз - 1000 руб предоплата, которая в дальнейшем пойдет в стоимость татуировки.</p>
+                </div><br>
+                <a href="javascript:toggle1();" id="displayText1" class="button">подробнее</a>
+            </div>
+
+            <div class="icon">
+                <img src="img/yxd.png" width="170" alt="">
+                <h4>УХОД ЗА ТАТУ</h4>
+                <p>От правильного заживления зависит хорошо ли будет смотреться татуировка. </p>
+                <div id="toggleText2" style="display: none;">
+                    <p> <a href="download/yxod.doc" target="_blank">Скачать</a> инструкцию по уходу.</p>
+                </div><br>
+                <a href="javascript:toggle2();" id="displayText2" class="button">подробнее</a>
+            </div>
+
+        </div>
+
+        <!-- SKILLS -->
+
+
+        <div class="large-12 columns skillDiagram hideMe">
+            <div id="diagram" style="display:none;"></div>
+        </div>
+
+
+
+        <div class="demo kitchensink-demo animation animation2" id="kitchensink-demo2">
+            <div class="round dots0" id="dots0"></div>
+            <div class="round dots00" id="dots00"></div>
+            <div class="round dots000" id="dots000"></div>
+            <div class="round dots1" id="dots1"></div>
+            <div class="round dots2" id="dots2"></div>
+            <div class="round dots3" id="dots3"></div>
+            <div class="round dots4" id="dots4"></div>
+            <div class="round dots5" id="dots5"></div>
+            <div class="round dots6" id="dots6"></div>
+            <div class="round dots7" id="dots7"></div>
+            <div class="round dots8" id="dots8"></div>
+            <div class="round dots9" id="dots9"></div>
+            <div class="round dots10" id="dots10"></div>
+            <div class="round dots11" id="dots11"></div>
+            <div class="round dots12" id="dots12"></div>
+            <div class="round dots13" id="dots13"></div>
+            <div class="round dots14" id="dots14"></div>
+            <div class="round dots15" id="dots15"></div>
+            <div class="round dots16" id="dots16"></div>
+            <div class="round dots17" id="dots17"></div>
+            <div class="round dots18" id="dots18"></div>
+            <div class="round dots19" id="dots19"></div>
+            <div class="round dots20" id="dots20"></div>
+            <div class="round dots21" id="dots21"></div>
+            <div class="round dots22" id="dots22"></div>
+            <div class="round dots23" id="dots23"></div>
+            <div class="round dots24" id="dots24"></div>
+        </div>
 
     </div>
 
-    <!-- SKILLS -->
 
 
-    <div class="large-12 columns skillDiagram hideMe"> 
-        <div id="diagram" style="display:none;"></div>
-    </div> 
+    <!-- WORK -->
+    <div class="row workRow">
+        <div class="large-12 columns titleHold_white" id="work">
+            <h1>ПОРТФОЛИО</h1>
+            <img src="img/seperator-white.png" height="14" width="201" alt="">
+        </div>
 
+        <div id="container">
 
-
-      <div class="demo kitchensink-demo animation animation2" id="kitchensink-demo2">
-        <div class="round dots0" id="dots0"></div>
-        <div class="round dots00" id="dots00"></div>
-        <div class="round dots000" id="dots000"></div>
-        <div class="round dots1" id="dots1"></div>
-        <div class="round dots2" id="dots2"></div>
-        <div class="round dots3" id="dots3"></div>
-        <div class="round dots4" id="dots4"></div>
-        <div class="round dots5" id="dots5"></div>
-        <div class="round dots6" id="dots6"></div>
-        <div class="round dots7" id="dots7"></div>
-        <div class="round dots8" id="dots8"></div>
-        <div class="round dots9" id="dots9"></div>
-        <div class="round dots10" id="dots10"></div> 
-        <div class="round dots11" id="dots11"></div>
-        <div class="round dots12" id="dots12"></div>
-        <div class="round dots13" id="dots13"></div>
-        <div class="round dots14" id="dots14"></div>
-        <div class="round dots15" id="dots15"></div>
-        <div class="round dots16" id="dots16"></div>
-        <div class="round dots17" id="dots17"></div>
-        <div class="round dots18" id="dots18"></div>
-        <div class="round dots19" id="dots19"></div>
-        <div class="round dots20" id="dots20"></div>            
-        <div class="round dots21" id="dots21"></div>                       
-        <div class="round dots22" id="dots22"></div>
-        <div class="round dots23" id="dots23"></div>
-        <div class="round dots24" id="dots24"></div>
-      </div>
-       
-  </div>
-
-
-
-  <!-- WORK -->
-  <div class="row workRow">
-    <div class="large-12 columns titleHold_white" id="work">
-      <h1>ПОРТФОЛИО</h1>
-      <img src="img/seperator-white.png" height="14" width="201" alt="">
-    </div>
-
-    <div id="container">
-
-       <div class="item favorites">
-          <a href="img/work/112.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/112.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/111.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/111.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/110.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/110.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/109.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/109.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/108.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/108.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/107.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/107.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/106.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/106.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/105.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/105.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/104.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/104.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/103.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/103.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/102.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/102.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-       <div class="item favorites">
-          <a href="img/work/101.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/101.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
+            <div class="item favorites">
+                <a href="img/work/112.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/112.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/111.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/111.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/110.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/110.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/109.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/109.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/108.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/108.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/107.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/107.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/106.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/106.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/105.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/105.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/104.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/104.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/103.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/103.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/102.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/102.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/101.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/101.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
 
 
 
@@ -285,609 +310,644 @@ text.innerHTML = "ЗАКРЫТЬ";
 
 
 
-        <div class="item favorites">
-          <a href="img/work/100.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/100.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/99.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/99.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/98.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/98.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/97.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/97.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/96.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/96.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/95.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/95.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
+            <div class="item favorites">
+                <a href="img/work/100.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/100.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/99.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/99.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/98.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/98.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/97.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/97.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/96.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/96.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/95.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/95.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
 
-        <div class="item favorites">
-          <a href="img/work/94.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/94.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/93.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/93.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/92.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/92.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/91.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/91.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/90.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/90.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        <div class="item favorites">
-          <a href="img/work/89.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/89.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/88.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/88.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/87.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/87.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/27.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/27.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/9.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
-            <img src="img/work/small/9.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/18.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/18.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/47.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/47.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item favorites">
-          <a href="img/work/41.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/41.jpg" height="220" width="300" alt="">
-          </a>
-        </div>           
-        
-        <div class="item favorites">
-          <a href="img/work/22.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
-            <img src="img/work/small/22.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-       <div class="item favorites">
-          <a href="img/work/6.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/6.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/83.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/83.jpg" height="220" width="300" alt="">
-          </a>
-        </div>   
-        
-        <div class="item favorites">
-          <a href="img/work/16.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
-            <img src="img/work/small/16.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
+            <div class="item favorites">
+                <a href="img/work/94.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/94.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/93.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/93.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/92.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/92.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/91.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/91.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/90.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/90.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+            <div class="item favorites">
+                <a href="img/work/89.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/89.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
 
-        <div class="item favorites">
-          <a href="img/work/46.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/46.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item favorites">
-          <a href="img/work/23.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
-            <img src="img/work/small/23.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
+            <div class="item favorites">
+                <a href="img/work/88.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/88.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
 
-        <!-- ПАВЛИН
+            <div class="item favorites">
+                <a href="img/work/87.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/87.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/27.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/27.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/9.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
+                    <img src="img/work/small/9.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/18.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/18.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/47.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/47.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/41.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/41.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/22.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
+                    <img src="img/work/small/22.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/6.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/6.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/83.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/83.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/16.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
+                    <img src="img/work/small/16.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/46.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/46.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/23.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
+                    <img src="img/work/small/23.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <!-- ПАВЛИН
         <div class="item favorites">
           <a href="img/work/52.jpg" data-rel="prettyPhoto[work]" title="">
             <img src="img/work/small/52.jpg" height="220" width="300" alt="">
           </a>
         </div>
         -->
-        
-        <div class="item favorites">
-          <a href="img/work/12.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
-            <img src="img/work/small/12.jpg" height="220" width="300" alt="">
-          </a>
+
+            <div class="item favorites">
+                <a href="img/work/12.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
+                    <img src="img/work/small/12.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/85.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/85.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/32.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/32.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/28.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/28.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/19.jpg" data-rel="prettyPhoto[work]" title="Цена: 8000 рублей">
+                    <img src="img/work/small/19.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item favorites">
+                <a href="img/work/84.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/84.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/30.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
+                    <img src="img/work/small/30.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/20.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/20.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/77.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/77.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/39.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/39.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/11.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/11.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/60.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/60.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/25.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/25.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/13.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/13.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/35.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/35.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/58.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/58.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/24.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/24.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/42.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/42.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/8.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/8.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/51.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/51.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/50.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/50.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/74.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/74.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/49.jpg" data-rel="prettyPhoto[work]" title="Цена: 3000 рублей">
+                    <img src="img/work/small/49.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/43.jpg" data-rel="prettyPhoto[work]" title="Цена: 3000 рублей">
+                    <img src="img/work/small/43.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/21.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/21.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/44.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
+                    <img src="img/work/small/44.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/31.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/31.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/53.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/53.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/14.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/14.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/81.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/81.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/26.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей (каждая)">
+                    <img src="img/work/small/26.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/86.jpg" data-rel="prettyPhoto[work]" title="Цена: 4000 рублей">
+                    <img src="img/work/small/86.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/37.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/37.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/1.jpg" data-rel="prettyPhoto[work]" title="Цена: 6000 рублей">
+                    <img src="img/work/small/1.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/57.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/57.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/10.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/10.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/4.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/4.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/3.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/3.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/62.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/62.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/38.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/38.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/76.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
+                    <img src="img/work/small/76.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/33.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/33.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/34.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/34.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/17.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/17.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/54.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/54.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/56.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/56.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/70.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/70.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/75.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/75.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/59.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/59.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/40.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/40.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/2.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/2.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/55.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
+                    <img src="img/work/small/55.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/72.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/72.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/63.jpg" data-rel="prettyPhoto[work]" title="">
+                    <img src="img/work/small/63.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="img/work/82.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
+                    <img src="img/work/small/82.jpg" height="220" width="300" alt="">
+                </a>
+            </div>
         </div>
 
-        <div class="item favorites">
-          <a href="img/work/85.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/85.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item favorites">
-          <a href="img/work/32.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/32.jpg" height="220" width="300" alt="">
-          </a>
+        <div id="filters"><a data-filter="*" onclick="this.style.visibility='hidden', loading.style.visibility='visible'">показать еще</a></div>
+
+
+        <div class="titleHold_white" id="work">
+            <h1>ФОТО LIFE</h1>
+            <img src="img/seperator-white.png" height="14" width="201" alt="">
         </div>
 
-        <div class="item favorites">
-          <a href="img/work/28.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/28.jpg" height="220" width="300" alt="">
-          </a>
-        </div>     
+        <div id="container2" class="isotope">
+            <center>
 
-        <div class="item favorites">
-          <a href="img/work/19.jpg" data-rel="prettyPhoto[work]" title="Цена: 8000 рублей">
-            <img src="img/work/small/19.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-14.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-14.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-1.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-1.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-2.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-2.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-3.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-3.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-4.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-4.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-5.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-5.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-6.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-6.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-7.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-7.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-8.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-8.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-9.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-9.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-10.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-10.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-11.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-11.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-12.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-12.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-13.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-13.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-15.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-15.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-16.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-16.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-17.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-17.jpg" height="220" width="300" alt=""></a>
+                </div>
+                <div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;">
+                    <a href="img/work/L-18.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-18.jpg" height="220" width="300" alt=""></a>
+                </div>
 
-        <div class="item favorites">
-          <a href="img/work/84.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/84.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/30.jpg" data-rel="prettyPhoto[work]" title="Цена: 10000 рублей">
-            <img src="img/work/small/30.jpg" height="220" width="300" alt="">
-          </a>
-        </div>      
-
-        <div class="item">
-          <a href="img/work/20.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/20.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="img/work/77.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/77.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="img/work/39.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/39.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="img/work/11.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/11.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="img/work/60.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/60.jpg" height="220" width="300" alt="">
-          </a>
-        </div> 
-        
-        <div class="item">
-          <a href="img/work/25.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/25.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/13.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/13.jpg" height="220" width="300" alt="">
-          </a>
-        </div>                                                                                
-
-        <div class="item">
-          <a href="img/work/35.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/35.jpg" height="220" width="300" alt="">
-          </a>
+            </center>
         </div>
 
-        <div class="item">
-          <a href="img/work/58.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/58.jpg" height="220" width="300" alt="">
-          </a>
-        </div>    
-        
-        <div class="item">
-          <a href="img/work/24.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/24.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/42.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/42.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/8.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/8.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/51.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/51.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/50.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/50.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/74.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/74.jpg" height="220" width="300" alt="">
-          </a>
-        </div>                      
-                        
-       <div class="item">
-          <a href="img/work/49.jpg" data-rel="prettyPhoto[work]" title="Цена: 3000 рублей">
-            <img src="img/work/small/49.jpg" height="220" width="300" alt="">
-          </a>
+
+        <div class="demo kitchensink-demo animation animation3" id="kitchensink-demo3">
+            <div class="round doties0" id="doties0"></div>
+            <div class="round doties00" id="doties00"></div>
+            <div class="round doties000" id="doties000"></div>
+            <div class="round doties1" id="doties1"></div>
+            <div class="round doties2" id="doties2"></div>
+            <div class="round doties3" id="doties3"></div>
+            <div class="round doties4" id="doties4"></div>
+            <div class="round doties5" id="doties5"></div>
+            <div class="round doties6" id="doties6"></div>
+            <div class="round doties7" id="doties7"></div>
+            <div class="round doties8" id="doties8"></div>
+            <div class="round doties9" id="doties9"></div>
+            <div class="round doties10" id="doties10"></div>
+            <div class="round doties11" id="doties11"></div>
+            <div class="round doties12" id="doties12"></div>
+            <div class="round doties13" id="doties13"></div>
+            <div class="round doties14" id="doties14"></div>
+            <div class="round doties15" id="doties15"></div>
+            <div class="round doties16" id="doties16"></div>
+            <div class="round doties17" id="doties17"></div>
+            <div class="round doties18" id="doties18"></div>
+            <div class="round doties19" id="doties19"></div>
+            <div class="round doties20" id="doties20"></div>
+            <div class="round doties21" id="doties21"></div>
+            <div class="round doties22" id="doties22"></div>
+            <div class="round doties23" id="doties23"></div>
+            <div class="round doties24" id="doties24"></div>
         </div>
 
-        <div class="item">
-          <a href="img/work/43.jpg" data-rel="prettyPhoto[work]" title="Цена: 3000 рублей">
-            <img src="img/work/small/43.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/21.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/21.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/44.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
-            <img src="img/work/small/44.jpg" height="220" width="300" alt="">
-          </a>
-        </div> 
-        
-        <div class="item">
-          <a href="img/work/31.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/31.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
+    </div>
 
-        <div class="item">
-          <a href="img/work/53.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/53.jpg" height="220" width="300" alt="">
-          </a>
-        </div>       
-        
-        <div class="item">
-          <a href="img/work/14.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/14.jpg" height="220" width="300" alt="">
-          </a>
-        </div> 
-        
-       <div class="item">
-          <a href="img/work/81.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/81.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/26.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей (каждая)">
-            <img src="img/work/small/26.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-       <div class="item">
-          <a href="img/work/86.jpg" data-rel="prettyPhoto[work]" title="Цена: 4000 рублей">
-            <img src="img/work/small/86.jpg" height="220" width="300" alt="">
-          </a>
-        </div>    
-        
-       <div class="item">
-          <a href="img/work/37.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/37.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/1.jpg" data-rel="prettyPhoto[work]" title="Цена: 6000 рублей">
-            <img src="img/work/small/1.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/57.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/57.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/10.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/10.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/4.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/4.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/3.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/3.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
 
-       <div class="item">
-          <a href="img/work/62.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/62.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/38.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/38.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/76.jpg" data-rel="prettyPhoto[work]" title="Цена: 12000 рублей">
-            <img src="img/work/small/76.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/33.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/33.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
 
-        <div class="item">
-          <a href="img/work/34.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/34.jpg" height="220" width="300" alt="">
-          </a>
-        </div>    
-        
-        <div class="item">
-          <a href="img/work/17.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/17.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/54.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/54.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/56.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/56.jpg" height="220" width="300" alt="">
-          </a>
-        </div>          
-        
-         <div class="item">
-          <a href="img/work/70.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/70.jpg" height="220" width="300" alt="">
-          </a>
+
+    <!-- CONTACT -->
+    <div class="row contactRow">
+        <div class="large-12 columns titleHold_white" id="contact">
+            <h1>КОНТАКТЫ</h1>
+            <img src="img/seperator-white.png" height="14" width="201" alt="">
         </div>
-        
-        <div class="item">
-          <a href="img/work/75.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/75.jpg" height="220" width="300" alt="">
-          </a>
-        </div>
-        
-        <div class="item">
-          <a href="img/work/59.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/59.jpg" height="220" width="300" alt="">
-          </a>
-        </div>           
-        
-        <div class="item">
-          <a href="img/work/40.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/40.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/2.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/2.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/55.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
-            <img src="img/work/small/55.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/72.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/72.jpg" height="220" width="300" alt="">
-          </a>
-        </div>         
-        
-        <div class="item">
-          <a href="img/work/63.jpg" data-rel="prettyPhoto[work]" title="">
-            <img src="img/work/small/63.jpg" height="220" width="300" alt="">
-          </a>
-        </div>        
-        
-        <div class="item">
-          <a href="img/work/82.jpg" data-rel="prettyPhoto[work]" title="Цена: 5000 рублей">
-            <img src="img/work/small/82.jpg" height="220" width="300" alt="">
-          </a>
+        <div class="large-12 columns mails">
+            <a href="https://vk.com/id602581" target="_blank">vk.com/id602581</a><br>
+            <a href="mailto:alexandra-ya@mail.ru">alexandra-ya@mail.ru</a><br> +7 (981) 762-87-48<br><br>
+            <h2 style="color:white;">Россия, г. Санкт-Петербург</h2>
         </div>
     </div>
 
-    <div id="filters"><a data-filter="*" onclick = "this.style.visibility='hidden', loading.style.visibility='visible'">показать еще</a></div>      
-  
-     
-    <div class="titleHold_white" id="work">
-      <h1>ФОТО LIFE</h1>
-      <img src="img/seperator-white.png" height="14" width="201" alt="">
-    </div>
-    
-    <div id="container2" class="isotope">
-    <center>
-
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-14.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-14.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-1.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-1.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-2.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-2.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-3.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-3.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-4.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-4.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-5.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-5.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-6.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-6.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-7.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-7.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-8.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-8.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-9.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-9.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-10.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-10.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-11.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-11.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-12.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-12.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-13.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-13.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-15.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-15.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-16.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-16.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-17.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-17.jpg" height="220" width="300" alt=""></a></div>
-<div class="item favorites isotope-item" style="display: inline-block; vertical-align: middle;"><a href="img/work/L-18.jpg" data-rel="prettyPhoto[work-2]" title=""><img src="img/work/small/L-18.jpg" height="220" width="300" alt=""></a></div>
-
-    </center>
-    </div>
 
 
-    <div class="demo kitchensink-demo animation animation3" id="kitchensink-demo3">
-        <div class="round doties0" id="doties0"></div>
-        <div class="round doties00" id="doties00"></div>
-        <div class="round doties000" id="doties000"></div>
-        <div class="round doties1" id="doties1"></div>
-        <div class="round doties2" id="doties2"></div>
-        <div class="round doties3" id="doties3"></div>
-        <div class="round doties4" id="doties4"></div>
-        <div class="round doties5" id="doties5"></div>
-        <div class="round doties6" id="doties6"></div>
-        <div class="round doties7" id="doties7"></div>
-        <div class="round doties8" id="doties8"></div>
-        <div class="round doties9" id="doties9"></div>
-        <div class="round doties10" id="doties10"></div> 
-        <div class="round doties11" id="doties11"></div>
-        <div class="round doties12" id="doties12"></div>
-        <div class="round doties13" id="doties13"></div>
-        <div class="round doties14" id="doties14"></div>
-        <div class="round doties15" id="doties15"></div>
-        <div class="round doties16" id="doties16"></div>
-        <div class="round doties17" id="doties17"></div>
-        <div class="round doties18" id="doties18"></div>
-        <div class="round doties19" id="doties19"></div>
-        <div class="round doties20" id="doties20"></div>            
-        <div class="round doties21" id="doties21"></div>                       
-        <div class="round doties22" id="doties22"></div>
-        <div class="round doties23" id="doties23"></div>
-        <div class="round doties24" id="doties24"></div>
-      </div>
+    <!-- FOOTER -->
 
-</div>
+    <div class="row footerRow">
 
+        <div class="large-12 columns titleHold_white" id="order">
+            <h1>ЗАПИСАТЬСЯ НА ПРИЕМ</h1>
+            <img src="img/seperator-white.png" height="14" width="201" alt="">
+        </div>
 
-
-
- <!-- CONTACT -->
-  <div class="row contactRow">
-    <div class="large-12 columns titleHold_white" id="contact">
-      <h1>КОНТАКТЫ</h1>
-      <img src="img/seperator-white.png" height="14" width="201" alt="">
-    </div>  
-    <div class="large-12 columns mails">
-      <a href="https://vk.com/id602581" target="_blank">vk.com/id602581</a><br>
-      <a href="mailto:alexandra-ya@mail.ru">alexandra-ya@mail.ru</a><br>
-      +7 (981) 762-87-48<br><br>
-      <h2 style="color:white;">Россия, г. Санкт-Петербург</h2>
-    </div>    
-  </div>
-
-
-
-  <!-- FOOTER -->
-
-  <div class="row footerRow">
-  
-      <div class="large-12 columns titleHold_white" id="order">
-      <h1>ЗАПИСАТЬСЯ НА ПРИЕМ</h1>
-      <img src="img/seperator-white.png" height="14" width="201" alt="">
-      </div>
-
-      <div class="large-12 columns mails">    
-      <div class=contact-form style="width:700px;">
-      <form id=contact-form method=post action="javascript:void(null); document.getElementById('name').value=''; document.getElementById('email').value='';  document.getElementById('message').value='';" onsubmit=call()>
-      <p>
-      <label for=name>ИМЯ</label>
-      <input type=text name=name id=name class=required />
-      </p>
-      <p>
-      <label for=email>ТЕЛЕФОН</label>
-      <input type=text name=email id=email class="required email" />
-      </p>
-      <p>
-      <label for=message>КОММЕНТАРИЙ</label>
-      <textarea name=message id=message class=required></textarea>
-      </p> 
-      <p>
-      <input type=submit value=ОТПРАВИТЬ class="button"/>
-      </p> 
-      </form>
-      <div class=contact-form></div>
-      </div>
-    </div>
-    <a href="http://www.rogatnev.ru/" target="_blank">Рогатнев Никита<br><img src="http://www.rogatnev.ru/images/favicon.png" style="width:50px;" alt="rogatnev">
+        <div class="large-12 columns mails">
+            <div class=contact-form style="width:700px;">
+                <form id=contact-form method=post action="javascript:void(null); document.getElementById('name').value=''; document.getElementById('email').value='';  document.getElementById('message').value='';" onsubmit=call()>
+                    <p>
+                        <label for=name>ИМЯ</label>
+                        <input type=text name=name id=name class=required />
+                    </p>
+                    <p>
+                        <label for=email>ТЕЛЕФОН</label>
+                        <input type=text name=email id=email class="required email" />
+                    </p>
+                    <p>
+                        <label for=message>КОММЕНТАРИЙ</label>
+                        <textarea name=message id=message class=required></textarea>
+                    </p>
+                    <p>
+                        <input type=submit value=ОТПРАВИТЬ class="button" />
+                    </p>
+                </form>
+                <div class=contact-form></div>
+            </div>
+        </div>
+        <a href="http://www.rogatnev.ru/" target="_blank">Рогатнев Никита<br><img src="http://www.rogatnev.ru/build/img/head/favicon/favicon.png" style="width:50px;" alt="rogatnev">
 </a>
-    <div class="toTop">
-      <a href="#home" class="toTopLink">
-      <img src="img/toTop.png" alt="">
-      </a>
+        <div class="toTop">
+            <a href="#home" class="toTopLink">
+                <img src="img/toTop.png" alt="">
+            </a>
+        </div>
     </div>
-  </div>
 
 
 
@@ -901,34 +961,34 @@ text.innerHTML = "ЗАКРЫТЬ";
     <script src="js/tweetable.jquery.js"></script>
 
     <script src="js/connector/lib/jquery-ui-1.9.2-min.js"></script>
-    <script src="js/connector/lib/jquery.ui.touch-punch.min.js"></script>        
+    <script src="js/connector/lib/jquery.ui.touch-punch.min.js"></script>
     <!-- /DEP -->
 
-        
+
     <!-- JS -->
     <!-- support lib for bezier stuff -->
-    <script src="js/connector/lib/jsBezier-0.6.js"></script>     
-    <!-- jsplumb geom functions -->   
+    <script src="js/connector/lib/jsBezier-0.6.js"></script>
+    <!-- jsplumb geom functions -->
     <script src="js/connector/lib/jsplumb-geom-0.1.js"></script>
     <!-- jsplumb util -->
     <script src="js/connector/src/util.js"></script>
-        <!-- base DOM adapter -->
-    <script src="js/connector/src/dom-adapter.js"></script>        
+    <!-- base DOM adapter -->
+    <script src="js/connector/src/dom-adapter.js"></script>
     <!-- main jsplumb engine -->
     <script src="js/connector/src/jsPlumb.js"></script>
-        <!-- endpoint -->
-    <script src="js/connector/src/endpoint.js"></script>                
-        <!-- connection -->
+    <!-- endpoint -->
+    <script src="js/connector/src/endpoint.js"></script>
+    <!-- connection -->
     <script src="js/connector/src/connection.js"></script>
-        <!-- anchors -->
-    <script src="js/connector/src/anchors.js"></script>        
+    <!-- anchors -->
+    <script src="js/connector/src/anchors.js"></script>
     <!-- connectors, endpoint and overlays  -->
     <script src="js/connector/src/defaults.js"></script>
     <!-- bezier connectors -->
     <script src="js/connector/src/connectors-bezier.js"></script>
     <!-- state machine connectors -->
     <script src="js/connector/src/connectors-statemachine.js"></script>
-        <!-- flowchart connectors -->
+    <!-- flowchart connectors -->
     <script src="js/connector/src/connectors-flowchart.js"></script>
     <!-- SVG renderer -->
     <script src="js/connector/src/renderers-svg.js"></script>
@@ -938,65 +998,97 @@ text.innerHTML = "ЗАКРЫТЬ";
     <script src="js/connector/src/renderers-vml.js"></script>
 
     <script src="js/connector/src/connector-editors.js"></script>
-        
+
     <!-- jquery jsPlumb adapter -->
     <script src="js/connector/src/jquery.jsPlumb.js"></script>
     <!-- /JS -->
-    
+
     <!--  demo code -->
     <script src="js/connector/demo.js"></script>
     <script src="js/connector/second-instance.js"></script>
     <script src="js/connector/third-instance.js"></script>
     <script>
-      (function($) {
-        "use strict";
-      $(function() {
+(function($) {
+    "use strict";
+    $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 2000);
-              return false;
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 2000);
+                    return false;
+                }
             }
-          }
         });
-      });
-      })(jQuery);
+    });
+})(jQuery);
     </script>
 
     <script>
-      $(document).ready(function(){
-        $("a[data-rel^='prettyPhoto']").prettyPhoto();
-      });
+$(document).ready(function() {
+    $("a[data-rel^='prettyPhoto']").prettyPhoto();
+});
     </script>
 
-    
+
     <!-- Preloader -->
-    <script type="text/javascript">// <![CDATA[
-        $(window).load(function() { $("#spinner").delay( 2000 ).fadeOut("slow"); })
-    </script> 
+    <script type="text/javascript">
+// <![CDATA[
+$(window).load(function() {
+    $("#spinner").delay(2000).fadeOut("slow");
+})
+    </script>
 
 
     <script>
-      $(window).load(function () {
-        var marginFix = $(".additionalBackground").height();
-        var marginTop = parseInt(marginFix) * -1;
-        $(".additionalBackground").css("marginTop", marginTop + "px");
-      });
- 
+$(window).load(function() {
+    var marginFix = $(".additionalBackground").height();
+    var marginTop = parseInt(marginFix) * -1;
+    $(".additionalBackground").css("marginTop", marginTop + "px");
+});
 
 
-      jQuery(window).load(function ()
-        {
-          $('.mapHolder').height($('.mapImg').height());                         
-        }); 
+
+jQuery(window).load(function() {
+    $('.mapHolder').height($('.mapImg').height());
+});
     </script>
 
-<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter24482948 = new Ya.Metrika({id:24482948, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/24482948" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+(function(d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24482948 = new Ya.Metrika({
+                id: 24482948,
+                webvisor: true,
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true
+            });
+        } catch (e) {}
+    });
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function() {
+            n.parentNode.insertBefore(s, n);
+        };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else {
+        f();
+    }
+})(document, window, "yandex_metrika_callbacks");
+    </script><noscript><div><img src="//mc.yandex.ru/watch/24482948" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
-  </body>
+</body>
+
 </html>
