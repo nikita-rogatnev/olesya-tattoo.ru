@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /awstats/
+Disallow: /bower_components/
+Disallow: /download/
+Sitemap: http://www.olesya-tattoo.ru/sitemap.xml

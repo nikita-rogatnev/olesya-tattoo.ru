@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'KlinicSlabLight';
+  src: url("Klinic_Light/klinicslablight.eot");
+  src: url("Klinic_Light/klinicslablight.eot") format("embedded-opentype"), url("Klinic_Light/klinicslablight.woff") format("woff"), url("Klinic_Light/klinicslablight.ttf") format("truetype"), url("Klinic_Light/klinicslablight.svg#KlinicSlabLight") format("svg");
+}
+
+@font-face {
+  font-family: 'Klinic_Light';
+  src: url("Klinic_Light/klinicslablight-webfont.eot");
+  src: url("Klinic_Light/klinicslablight-webfont.eot@#iefix") format("embedded-opentype"), url("Klinic_Light/klinicslablight-webfont.woff") format("woff"), url("Klinic_Light/klinicslablight-webfont.ttf") format("truetype"), url("Klinic_Light/klinicslablight-webfont.svg#klinic_slablight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klinic_Light_Italic';
+    src: url('Klinic_Light_Italic/klinicslablightit-webfont.eot');
+    src: url('Klinic_Light_Italic/klinicslablightit-webfont.eot@#iefix') format('embedded-opentype'),
+         url('Klinic_Light_Italic/klinicslablightit-webfont.woff') format('woff'),
+         url('Klinic_Light_Italic/klinicslablightit-webfont.ttf') format('truetype'),
+         url('Klinic_Light_Italic/klinicslablightit-webfont.svg#klinic_slablight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Klinic_Book';
+    src: url('Klinic_Book/klinicslabbook-webfont.eot');
+    src: url('Klinic_Book/klinicslabbook-webfont.eot@#iefix') format('embedded-opentype'),
+         url('Klinic_Book/klinicslabbook-webfont.woff') format('woff'),
+         url('Klinic_Book/klinicslabbook-webfont.ttf') format('truetype'),
+         url('Klinic_Book/klinicslabbook-webfont.svg#klinic_slabbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Klinic_Bold_Italic';
+    src: url('Klinic_Bold_Italic/klinicslabboldit-webfont.eot');
+    src: url('Klinic_Bold_Italic/klinicslabboldit-webfont.eot@#iefix') format('embedded-opentype'),
+         url('Klinic_Bold_Italic/klinicslabboldit-webfont.woff') format('woff'),
+         url('Klinic_Bold_Italic/klinicslabboldit-webfont.ttf') format('truetype'),
+         url('Klinic_Bold_Italic/klinicslabboldit-webfont.svg#klinic_slabbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Klinic_Book_Italic';
+    src: url('Klinic_Book_Italic/klinicslabbookit-webfont.eot');
+    src: url('Klinic_Book_Italic/klinicslabbookit-webfont.eot@#iefix') format('embedded-opentype'),
+         url('Klinic_Book_Italic/klinicslabbookit-webfont.woff') format('woff'),
+         url('Klinic_Book_Italic/klinicslabbookit-webfont.ttf') format('truetype'),
+         url('Klinic_Book_Italic/klinicslabbookit-webfont.svg#klinic_slabbook_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Klinic_Medium_Regular';
+    src: url('Klinic_Medium_Regular/klinicslabmedium-webfont.eot');
+    src: url('Klinic_Medium_Regular/klinicslabmedium-webfont.eot@#iefix') format('embedded-opentype'),
+         url('Klinic_Medium_Regular/klinicslabmedium-webfont.woff') format('woff'),
+         url('Klinic_Medium_Regular/klinicslabmedium-webfont.ttf') format('truetype'),
+         url('Klinic_Medium_Regular/klinicslabmedium-webfont.svg#klinic_slabmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url(../../../../fonts.googleapis.com/css@family=Lato);
